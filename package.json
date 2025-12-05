@@ -94,7 +94,8 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier ./src --write",
-    "cypress:open": "cypress open",
+    "cy:open": "cypress open",
+    "e2e:chrome": "cypress run --browser chrome",
     "test": "jest"
   },
   "eslintConfig": {
