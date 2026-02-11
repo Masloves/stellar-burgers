@@ -1,19 +1,45 @@
-# Проектная работа 11-го спринта
+# Stellar Burgers 🍔
 
-[Макет](<https://www.figma.com/file/vIywAvqfkOIRWGOkfOnReY/React-Fullstack_-Проектные-задачи-(3-месяца)_external_link?type=design&node-id=0-1&mode=design>)
+SPA-приложение для заказа «космических» бургеров на React + TypeScript.
 
-[Чеклист](https://www.notion.so/praktikum/0527c10b723d4873aa75686bad54b32e?pvs=4)
+## 📌 Описание
 
-## Этапы работы:
+Проект реализует:
 
-1. Разверните проект и ознакомьтесь с кодом. Все необходимые вам компоненты уже созданы и лежат в папке `src/components`
+- адаптивный интерфейс
+- пользовательскую авторизацию
+- защищённые маршруты
+- Redux Toolkit для управления состоянием
+- взаимодействие с API
+- покрытие ключевых сценариев тестами (Jest, Cypress)
+- работу модальных окон
 
-2. Настройте роутинг.
+## 🛠 Технологии
 
-3. Напишите функционал запросов данных с сервера, используя `Redux` и глобальный `store`. Сами "ручки" уже прописаны и лежат в `utils/burger-api.ts`
+React • TypeScript • Redux Toolkit • React Router  
+HTML5 • CSS3 • Jest • Cypress • Git
 
-4. Настройте авторизацию и создайте защищённые роуты.
+## 🚀 Запуск
 
-## Важно:
+```bash
+npm install
+npm start
+```
+## 📸 Скриншоты
 
-Для корректной работы запросов к серверу необходимо добавить переменную BURGER_API_URL в окружение. Сама ссылка находится в файле `.env.example`.
+### Страница авторизации
+<img width="2577" height="1730" alt="2026-02-11_15-07-41" src="https://github.com/user-attachments/assets/0bb4fd92-da6e-467d-a77b-878fef2bda11" />
+
+### Страница профиля (после авторизации)
+<img width="2574" height="1740" alt="2026-02-11_15-09-04" src="https://github.com/user-attachments/assets/fb7c76d3-3d73-46ba-aeeb-ed23c1a5dbcc" />
+
+### Страница контструктора бургера
+<img width="2586" height="1746" alt="2026-02-11_15-06-11" src="https://github.com/user-attachments/assets/aed2c247-a4dc-408d-a089-de1dab00a078" />
+
+### Страница ленты заказов
+<img width="2581" height="1738" alt="2026-02-11_15-06-51" src="https://github.com/user-attachments/assets/19c2df51-5ab0-407b-b2e3-3f474696169d" />
+
+### Страница истории заказов пользователя (после авторизации)
+<img width="2584" height="1740" alt="2026-02-11_15-08-23" src="https://github.com/user-attachments/assets/4f7d1d72-e58b-4290-bf66-2aaf7fbd1dc3" />
+
+## 📋 [Макет](<https://www.figma.com/file/vIywAvqfkOIRWGOkfOnReY/React-Fullstack_-Проектные-задачи-(3-месяца)_external_link?type=design&node-id=0-1&mode=design>)
